@@ -6,7 +6,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	ensure_installed = {"templ"},
+	ensure_installed = {},
 	handlers = {
 		lsp_zero.default_setup,
 	},
