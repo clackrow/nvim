@@ -9,3 +9,4 @@ vim.filetype.add({
 })
 
 vim.opt_global.conceallevel = 1
+vim.opt.clipboard = "unnamedplus"
