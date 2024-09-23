@@ -31,3 +31,5 @@ vim.keymap.set("n", "<Space>bl", "<Cmd>BufferOrderByLanguage<CR>", opts)
 vim.keymap.set("n", "<Space>bw", "<Cmd>BufferOrderByWindowNumber<CR>", opts)
 
 vim.keymap.set("i", "]]", "|", opts)
+
+vim.keymap.set("n", "<leader>u", "<Cmd>UndotreeToggle | UndotreeFocus<CR>", opts)

@@ -3,7 +3,10 @@ return {
 		"folke/tokyonight.nvim",
 		opts = {
 			transparent = true,
-			styles = {},
+			style = "night",
+			styles = {
+				floats = "transparent",
+			},
 		},
 	},
 }
