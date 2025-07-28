@@ -10,3 +10,4 @@ vim.filetype.add({
 
 vim.opt_global.conceallevel = 1
 vim.opt.clipboard = "unnamedplus"
+vim.lsp.set_log_level("OFF")
