@@ -37,4 +37,3 @@ vim.keymap.set("i", "]]", "|")
 vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
 end)
-print("hello from options")

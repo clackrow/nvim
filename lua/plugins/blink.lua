@@ -31,7 +31,7 @@ return {
 			keymap = {
 				["<S-Tab>"] = { "select_prev", "fallback" },
 				["<Tab>"] = { "select_next", "fallback" },
-				["<S-Enter>"] = { "select_and_accept" },
+				["<Enter>"] = { "select_and_accept", "fallback" },
 
 				-- 'default' (recommended) for mappings similar to built-in completions
 				--   <c-y> to accept ([y]es) the completion.

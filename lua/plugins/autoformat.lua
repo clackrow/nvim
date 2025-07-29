@@ -21,13 +21,14 @@ return {
 					return nil
 				else
 					return {
-						timeout_ms = 500,
+						timeout_ms = 3000,
 						lsp_format = "fallback",
 					}
 				end
 			end,
 			formatters_by_ft = {
 				lua = { "stylua" },
+				markdown = { "prettierd" },
 			},
 		},
 	},
