@@ -14,3 +14,16 @@ vim.keymap.set("x", "<A-j>", ":m '>+1<CR>gv=gv", { silent = true })
 vim.keymap.set("x", "<A-k>", ":m '<-2<CR>gv=gv", { silent = true })
 
 vim.keymap.set("n", "<C-e>", vim.diagnostic.open_float)
+vim.keymap.set("i", "zz", "\\")
+vim.cmd([[cmap zz \]])
+
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+
+vim.keymap.set({ "n", "i" }, "<left>", '<cmd>echo "Use h para mover o cursor!!"<CR>')
+vim.keymap.set({ "n", "i" }, "<right>", '<cmd>echo "Use l para mover o cursor!!"<CR>')
+vim.keymap.set({ "n", "i" }, "<up>", '<cmd>echo "Use k para mover o cursor!!"<CR>')
+vim.keymap.set({ "n", "i" }, "<down>", '<cmd>echo "Use j para mover o cursor!!"<CR>')
+
+vim.keymap.set("i", "]]", "|")

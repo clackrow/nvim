@@ -14,9 +14,9 @@ return {
 		---@module 'blink.cmp'
 		---@type blink.cmp.Config
 		opts = {
-			["<S-Tab>"] = { "select_prev", "fallback" },
-			["<Tab>"] = { "select_next", "fallback" },
-			["<Enter>"] = { "select_and_accept", "fallback" },
+			-- ["<S-Tab>"] = { "select_prev", "fallback" },
+			-- ["<Tab>"] = { "select_next", "fallback" },
+			-- ["<Enter>"] = { "select_and_accept", "fallback" },
 			keymap = { preset = "default" },
 
 			appearance = {
